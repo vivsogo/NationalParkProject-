@@ -12,7 +12,7 @@ function loadParks(){
 
      })
      .then(function(data){ 
-         data.map(p=> renderPark(p))
+         data.map(n=> renderPark(n))
 
     
         
@@ -23,29 +23,46 @@ function loadParks(){
 
 
 //rendered park function
-//adding to collection in HTML
-//+= to concatanate each park
 
-function renderPark(park){
-    const parkCard = `<div class="card">
-       <h2>${park.name}</h2> 
-       <img src=${park.image} class="park-avatar"/>
-       <p>${park.caption}</p>
-       <button>like</button>
-    </div>`
+const renderPark =(park)=>{
+    const parkCard=document.createElement('div')
+    parkCard.className="card"
 
-   const parkHome = document.getElementById("park-collection")
-   console.log("cards rendered")
-   parkHome.innerHTML += parkCard
-}
-  
-document.querySelectorAll('like-btn').forEach(item => {
-    console.log ("add event")
-    
-    item.addEventListener('click', event => {
-      alert("Great choice");
+    const parkName=document.createElement('h2')
+    parkName.innerText= park.name
+
+    const parkImage=document.createElement('img')
+    parkImage.src=park.image
+    parkImage.className="park-avatar"
+
+    const parkCaption=document.createElement('p')
+    parkCaption.innerText= `${park.caption}`
+
+    const likeBtn=document.createElement('button')
+    likeBtn.innerText=`LIKE`
+    likeBtn.className='like-btn'
+    likeBtn.addEventListener('click',() =>{
+        alert("This looks like the perfect park for you!");
     })
-  })
+
+    parkCard.append(parkName,parkImage,parkCaption,likeBtn)
+    
+    const parkCollection= document.querySelector('#park-collection')
+    console.log(parkCollection)
+
+    
+
+    parkCollection.append(parkCard)
+
+
+}
+
+
+
+
+
+  
+  
 
 
 //call them here 
