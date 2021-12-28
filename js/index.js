@@ -1,11 +1,6 @@
 
 console.log('please work')
 
-
-
-
-
-
 // return a promise which returns a promise use .then to grab array of parks
 //call render inside load parks 
 // using each element is stored in a key 
@@ -16,12 +11,12 @@ function loadParks(){
          return response.json();
 
      })
-     .then(function(data){
-         data.map(p=> renderParks(p))
+     .then(function(data){ 
+         data.map(p=> renderPark(p))
 
     
         
-
+ 
      })
      
 }
@@ -31,7 +26,7 @@ function loadParks(){
 //adding to collection in HTML
 //+= to concatanate each park
 
-function renderParks(park){
+function renderPark(park){
     const parkCard = `<div class="card">
        <h2>${park.name}</h2> 
        <img src=${park.image} class="park-avatar"/>
