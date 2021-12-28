@@ -1,24 +1,44 @@
 alert('yo')
 console.log('please')
 
-// global const since we have to call a few times 
-const baseUrl= 'http://localhost:3000';
-let parks = [];
 
 
 
 
-const loadParks = () => {
-    fetch(baseUrl + '/parks')
-        .then(resp => resp.json())
-        .then(data =>{
-         console.log('data', data)
-             parks = data;
-         })
+// return a promise which returns a promise use .then to grab array of parks
+//call render inside load parks 
+function loadParks(){
+    fetch('http://localhost:3000/parks')
+     .then(function(response){
+         return response.json();
 
+     })
+     .then(function(data){
+         data.map(p=> renderParks(p))
+
+        console.log(data)
+
+     })
 }
 
 
+//rendered toy function
+
+function renderParks(park){
+    const parkCard = `<div class="card">
+       <h2>${park.name}</h2> 
+       <img src=${park.image} class="park-avatar"/>
+       <p>${park.likes}</p>
+       <button class="like-btn">like<3/button>
+    </div>`
+
+   const parkHome = document.getElementById("park-collection")
+   parkHome.innerHTML += parkCard
+}
+
+
+
+//call them here 
  document.addEventListener('DOMContentLoaded',function(){
     loadParks();
 
