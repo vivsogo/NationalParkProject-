@@ -4,49 +4,49 @@
         "id": 1,
         "name": "Zion",
         "image": "https://www.doi.gov/sites/doi.gov/files/blog-post/thumbnail-images/ZionNPTomMorrisSmall.jpg",
-        "likes": 5
+        "caption": "For the the THRILL seeker who is not afriad of hieghts "
       },
       {
         "id": 2, 
         "name": "Yosemite",
         "image": "https://www.nathab.com/uploaded-files/shutterstock_513244762.jpg",
-        "likes": 8
+        "caption": "For the photographer and social media guru"
       },
       {
         "id": 3,
         "name": "Yellowstone",
         "image": "https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F60a77f30768434735cc94924%2FGrand-Prismatic-Spring---Yellowstone-National-Park%2F960x0.jpg%3Ffit%3Dscale",
-        "likes": 3
+        "caption":"For the animal lover "
       },
       {
         "id": 4,
         "name": "Grand Teton",
         "image": "https://i0.wp.com/morethanjustparks.com/wp-content/uploads/2021/07/JAPL7646.jpg?fit=1800%2C1200&ssl=1",
-        "likes": 4
+        "caption": "For the exercise junkie looking for a great trail "
       },
       {
         "id": 5,
         "name": "Grand Canyon",
         "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIUnKF7mKkNJFg-DD0DUcexpytD2jxCRl1fw&usqp=CAU",
-        "likes": 1
+        "caption": "For the family oriented hiker "
       },
       {
         "id": 6,
         "name": "Great Smoky Mountains",
         "image":"https://www.wreg.com/wp-content/uploads/sites/18/2020/04/hypatia-h_d43cebf10258e14c41633c59f595bf83-h_6cae19e7bbd593cbd356f248fec73a8c.jpg?strip=1",
-        "likes": 2
+        "caption": "For the music and nature lover"
       },
       {
         "id": 7,
         "name": "Mount Rainier",
         "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTy5jlVv120SyxOM32XbsbdkwV0KSceHrCfLw&usqp=CAU",
-        "likes": 0
+        "caption": "For the Ultimate climber "
       },
       {
         "id": 8,
         "name": "Acadia",
         "image":"https://travel.mqcdn.com/mapquest/travel/wp-content/uploads/2020/07/GettyImages-1220196496-720x480.jpg",
-        "likes":0
+        "caption":"For the Hiker looking for a quiet weekend getaway "
       }
     ]
   }
