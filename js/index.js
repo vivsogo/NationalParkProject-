@@ -7,6 +7,8 @@ console.log('please')
 
 // return a promise which returns a promise use .then to grab array of parks
 //call render inside load parks 
+// using each element is stored in a key 
+// were passing a call back function 
 function loadParks(){
     fetch('http://localhost:3000/parks')
      .then(function(response){
@@ -22,7 +24,8 @@ function loadParks(){
 }
 
 
-//rendered toy function
+//rendered park function
+//adding to collection in HTML
 
 function renderParks(park){
     const parkCard = `<div class="card">
