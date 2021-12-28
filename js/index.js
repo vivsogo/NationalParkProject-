@@ -1,5 +1,6 @@
-alert('yo')
-console.log('please')
+
+console.log('please work')
+
 
 
 
@@ -18,31 +19,43 @@ function loadParks(){
      .then(function(data){
          data.map(p=> renderParks(p))
 
-        console.log(data)
+    
+        
 
      })
+     
 }
 
 
 //rendered park function
 //adding to collection in HTML
+//+= to concatanate each park
 
 function renderParks(park){
     const parkCard = `<div class="card">
        <h2>${park.name}</h2> 
        <img src=${park.image} class="park-avatar"/>
-       <p>${park.likes}</p>
-       <button class="like-btn">like<3/button>
+       <p>${park.caption}</p>
+       <button>like</button>
     </div>`
 
    const parkHome = document.getElementById("park-collection")
+   console.log("cards rendered")
    parkHome.innerHTML += parkCard
 }
-
+  
+document.querySelectorAll('like-btn').forEach(item => {
+    console.log ("add event")
+    
+    item.addEventListener('click', event => {
+      alert("Great choice");
+    })
+  })
 
 
 //call them here 
  document.addEventListener('DOMContentLoaded',function(){
     loadParks();
+
 
  })
