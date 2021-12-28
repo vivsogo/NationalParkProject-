@@ -1,0 +1,57 @@
+.banner {
+
+    background-color: rgb(9, 75, 36);
+    text-align: center;
+    font-style: oblique;
+
+
+}
+
+.card {
+    background-color: rgb(137, 189, 69);
+    text-align: center;
+    border: rgb(15, 1, 1) solid 1px;
+    padding: 1rem;
+    width: 15rem;
+    height: 25rem;
+    display: inline-grid;
+    margin: 1rem 2rem;
+    box-shadow: 3px 4px #0c9e38
+  }
+
+
+.body {
+    margin: 0;
+    font-family: monospace;
+  }
+  
+
+.container {
+    padding: 1rem;
+    width: stretch;
+    height: auto;
+    display: none;
+    background: #053b12;
+    opacity: .8;
+  }
+ .park-avatar {
+    justify-self: center;
+    border-radius: 50%;
+    height: 12rem;
+    width: 12rem;
+  }
+#park-collection {
+    margin: 2rem;
+  }
+
+.button {
+    position: center;
+    background-color: #0c8046;
+    border: none;
+    border-radius: 5px;
+    height: 3rem;
+    width: max-content;
+    color: rgb(12, 12, 12);
+    font-size: 18px;
+    justify-self: center;
+  }
