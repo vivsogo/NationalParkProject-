@@ -1,0 +1,52 @@
+{
+    "parks": [
+      {
+        "id": 1,
+        "name": "Zion",
+        "image": "https://www.doi.gov/sites/doi.gov/files/blog-post/thumbnail-images/ZionNPTomMorrisSmall.jpg",
+        "likes": 5
+      },
+      {
+        "id": 2, 
+        "name": "Yosemite",
+        "image": "https://www.nathab.com/uploaded-files/shutterstock_513244762.jpg",
+        "likes": 8
+      },
+      {
+        "id": 3,
+        "name": "Yellowstone",
+        "image": "https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F60a77f30768434735cc94924%2FGrand-Prismatic-Spring---Yellowstone-National-Park%2F960x0.jpg%3Ffit%3Dscale",
+        "likes": 3
+      },
+      {
+        "id": 4,
+        "name": "Grand Teton",
+        "image": "https://i0.wp.com/morethanjustparks.com/wp-content/uploads/2021/07/JAPL7646.jpg?fit=1800%2C1200&ssl=1",
+        "likes": 4
+      },
+      {
+        "id": 5,
+        "name": "Grand Canyon",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIUnKF7mKkNJFg-DD0DUcexpytD2jxCRl1fw&usqp=CAU",
+        "likes": 1
+      },
+      {
+        "id": 6,
+        "name": "Great Smoky Mountains",
+        "image": "http://4.bp.blogspot.com/_OZHbJ8c71OM/Sog43CMFX2I/AAAAAAAADEs/0AKX0XslD4g/s400/bo.png",
+        "likes": 2
+      },
+      {
+        "id": 7,
+        "name": "Mount Rainier",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTy5jlVv120SyxOM32XbsbdkwV0KSceHrCfLw&usqp=CAU",
+        "likes": 0
+      },
+      {
+        "id": 8,
+        "name": "Acadia",
+        "image":"https://travel.mqcdn.com/mapquest/travel/wp-content/uploads/2020/07/GettyImages-1220196496-720x480.jpg",
+        "likes":0
+      }
+    ]
+  }
