@@ -15,9 +15,10 @@ function loadParks(){
          data.map(n=> renderPark(n))
 
     
-        
  
      })
+  
+  
      
 }
 
@@ -44,30 +45,49 @@ const renderPark =(park)=>{
     likeBtn.addEventListener('click',() =>{
         alert("This looks like the perfect park for you!");
     })
-
-    parkCard.append(parkName,parkImage,parkCaption,likeBtn)
+    
+    parkCard.append(parkName,parkImage,parkCaption,likeBtn,)
     
     const parkCollection= document.querySelector('#park-collection')
     console.log(parkCollection)
 
     
 
-    parkCollection.append(parkCard)
+    parkCollection.append(parkCard,)
 
+    
+  
+}
+
+const wrapper = document.querySelector('.wrapper'),
+    form = wrapper.querySelectorAll('form'),
+    sumbitInput = form[0].querySelector('input[type="submit"]');
+
+function getDataForm(e){
+ e.preventDefault();
+ var formData= new formData(form[0]);
+
+ alert (formData.get('nameField')+' - '+ formData.get('datefield')+' - '+ formData.get('trailfield'));
+
+}
+
+document.addEventListener('DOMContentLoaded',function(){
+ sumbitInput.addEventListener('click',getDataForm,);
+
+
+}, false);   
+  
 
 }
 
 
-
-
-
-  
   
 
 
 //call them here 
  document.addEventListener('DOMContentLoaded',function(){
     loadParks();
-
+    
 
  })
+
