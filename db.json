@@ -4,7 +4,7 @@
         "id": 1,
         "name": "Zion",
         "image": "https://www.doi.gov/sites/doi.gov/files/blog-post/thumbnail-images/ZionNPTomMorrisSmall.jpg",
-        "caption": "For the the THRILL seeker who is not afriad of hieghts "
+        "caption": "For the the THRILL seeker who is not afriad of hieghts (Popular hikes : Angels Landing)"
       },
       {
         "id": 2, 
@@ -44,6 +44,31 @@
       },
       {
         "id": 8,
+        "name": "Acadia",
+        "image":"https://travel.mqcdn.com/mapquest/travel/wp-content/uploads/2020/07/GettyImages-1220196496-720x480.jpg",
+        "caption":"For the Hiker looking for a quiet weekend getaway "
+      },
+
+      {
+        "id": 9,
+        "name": "Acadia",
+        "image":"https://travel.mqcdn.com/mapquest/travel/wp-content/uploads/2020/07/GettyImages-1220196496-720x480.jpg",
+        "caption":"For the Hiker looking for a quiet weekend getaway "
+      },
+      {
+        "id": 10,
+        "name": "Acadia",
+        "image":"https://travel.mqcdn.com/mapquest/travel/wp-content/uploads/2020/07/GettyImages-1220196496-720x480.jpg",
+        "caption":"For the Hiker looking for a quiet weekend getaway "
+      },
+      {
+        "id": 11,
+        "name": "Acadia",
+        "image":"https://travel.mqcdn.com/mapquest/travel/wp-content/uploads/2020/07/GettyImages-1220196496-720x480.jpg",
+        "caption":"For the Hiker looking for a quiet weekend getaway "
+      },
+      {
+        "id": 12,
         "name": "Acadia",
         "image":"https://travel.mqcdn.com/mapquest/travel/wp-content/uploads/2020/07/GettyImages-1220196496-720x480.jpg",
         "caption":"For the Hiker looking for a quiet weekend getaway "
