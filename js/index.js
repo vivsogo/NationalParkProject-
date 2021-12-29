@@ -59,28 +59,6 @@ const renderPark =(park)=>{
   
 }
 
-const wrapper = document.querySelector('.wrapper'),
-    form = wrapper.querySelectorAll('form'),
-    sumbitInput = form[0].querySelector('input[type="submit"]');
-
-function getDataForm(e){
- e.preventDefault();
- var formData= new formData(form[0]);
-
- alert (formData.get('nameField')+' - '+ formData.get('datefield')+' - '+ formData.get('trailfield'));
-
-}
-
-document.addEventListener('DOMContentLoaded',function(){
- sumbitInput.addEventListener('click',getDataForm,);
-
-
-}, false);   
-  
-
-}
-
-
   
 
 
@@ -90,4 +68,22 @@ document.addEventListener('DOMContentLoaded',function(){
     
 
  })
+const wrapper = document.querySelector('.wrapper'),
+ form = wrapper.querySelectorAll('form'),
+ sumbitInput = form[0].querySelector('input[type="submit"]');
+
+function getDataForm(e){
+e.preventDefault();
+var formData= new formData(form[0]);
+
+alert (formData.get('nameField')+' - '+ formData.get('datefield')+' - '+ formData.get('trailfield'));
+
+}
+
+document.addEventListener('DOMContentLoaded',function(){
+sumbitInput.addEventListener('click',getDataForm,);
+
+
+}, false);   
+
 
