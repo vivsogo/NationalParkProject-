@@ -51,27 +51,27 @@
 
       {
         "id": 9,
-        "name": "Acadia",
-        "image":"https://travel.mqcdn.com/mapquest/travel/wp-content/uploads/2020/07/GettyImages-1220196496-720x480.jpg",
-        "caption":"For the Hiker looking for a quiet weekend getaway "
+        "name": "Redwood ",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7DMv92LOVPws19990caYfLnpsYnxKxig9_A&usqp=CAU",
+        "caption":"For the loner "
       },
       {
         "id": 10,
-        "name": "Acadia",
-        "image":"https://travel.mqcdn.com/mapquest/travel/wp-content/uploads/2020/07/GettyImages-1220196496-720x480.jpg",
-        "caption":"For the Hiker looking for a quiet weekend getaway "
+        "name": "Haleakala",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrkzhPAhlSH3lE5vMe-Ui2-U10p_oxLMZQpA&usqp=CAU",
+        "caption":"For the morning person "
       },
       {
         "id": 11,
-        "name": "Acadia",
-        "image":"https://travel.mqcdn.com/mapquest/travel/wp-content/uploads/2020/07/GettyImages-1220196496-720x480.jpg",
-        "caption":"For the Hiker looking for a quiet weekend getaway "
+        "name": "Olympic",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnggIQ9QNCNXG9XBb8QKnoDKn68Q-QLV_VnA&usqp=CAU",
+        "caption":"For the energetic person "
       },
       {
         "id": 12,
-        "name": "Acadia",
-        "image":"https://travel.mqcdn.com/mapquest/travel/wp-content/uploads/2020/07/GettyImages-1220196496-720x480.jpg",
-        "caption":"For the Hiker looking for a quiet weekend getaway "
+        "name": "Sequoia",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT53K7Wz403K6Hr14VI-IVgRqBXkuarg0bDHA&usqp=CAU",
+        "caption":"For the tree lover "
       }
     ]
   }
