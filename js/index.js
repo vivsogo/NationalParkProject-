@@ -86,7 +86,7 @@ document.addEventListener('DOMContentLoaded', () =>{
 })
 
 function handleToDo(todo){
-    let g = document.createElement('g')
-    g.textContent =todo
-    document.querySelector('#park_container').appendChild(g)
+    let f = document.createElement('g')
+    f.textContent =todo
+    document.querySelector('#park_container').appendChild(f)
 }
