@@ -10,68 +10,69 @@
         "id": 2, 
         "name": "Yosemite",
         "image": "https://www.nathab.com/uploaded-files/shutterstock_513244762.jpg",
-        "caption": "For the photographer and social media guru"
+        "caption": "For the photographer and social media guru (Popular hikes : Half Dome)"
       },
       {
         "id": 3,
         "name": "Yellowstone",
         "image": "https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F60a77f30768434735cc94924%2FGrand-Prismatic-Spring---Yellowstone-National-Park%2F960x0.jpg%3Ffit%3Dscale",
-        "caption":"For the animal lover "
+        "caption":"For the animal lover (Popular hikes : North Rim Trail )"
       },
       {
         "id": 4,
         "name": "Grand Teton",
         "image": "https://i0.wp.com/morethanjustparks.com/wp-content/uploads/2021/07/JAPL7646.jpg?fit=1800%2C1200&ssl=1",
-        "caption": "For the exercise junkie looking for a great trail "
+        "caption": "For the exercise junkie looking for a great trail (Popular hikes : Cascade Canyon) "
       },
       {
         "id": 5,
         "name": "Grand Canyon",
         "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIUnKF7mKkNJFg-DD0DUcexpytD2jxCRl1fw&usqp=CAU",
-        "caption": "For the family oriented hiker "
+        "caption": "For the family oriented hiker (Popular hikes : Bright Angel Trail) "
       },
       {
         "id": 6,
         "name": "Great Smoky Mountains",
         "image":"https://www.wreg.com/wp-content/uploads/sites/18/2020/04/hypatia-h_d43cebf10258e14c41633c59f595bf83-h_6cae19e7bbd593cbd356f248fec73a8c.jpg?strip=1",
-        "caption": "For the music and nature lover"
+        "caption": "For the music and nature lover (Popular hikes : Mt.Leconte)"
       },
       {
         "id": 7,
         "name": "Mount Rainier",
         "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTy5jlVv120SyxOM32XbsbdkwV0KSceHrCfLw&usqp=CAU",
-        "caption": "For the Ultimate climber "
+        "caption": "For the Ultimate climber (Popular hikes : Skyline Trail ) "
       },
       {
         "id": 8,
         "name": "Acadia",
         "image":"https://travel.mqcdn.com/mapquest/travel/wp-content/uploads/2020/07/GettyImages-1220196496-720x480.jpg",
-        "caption":"For the Hiker looking for a quiet weekend getaway "
+        "caption":"For the Hiker looking for a quiet weekend getaway (Popular hikes : Beehive Trail) "
       },
 
       {
         "id": 9,
         "name": "Redwood ",
         "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7DMv92LOVPws19990caYfLnpsYnxKxig9_A&usqp=CAU",
-        "caption":"For the loner "
+        "caption":"For the loner (Popular hikes : James Irvine Trail) "
       },
       {
         "id": 10,
         "name": "Haleakala",
         "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrkzhPAhlSH3lE5vMe-Ui2-U10p_oxLMZQpA&usqp=CAU",
-        "caption":"For the morning person "
+        "caption":"For the morning person (Popular hikes : Haleakala Summit)"
       },
       {
         "id": 11,
         "name": "Olympic",
         "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnggIQ9QNCNXG9XBb8QKnoDKn68Q-QLV_VnA&usqp=CAU",
-        "caption":"For the energetic person "
+        "caption":"For the morning person (Popular hikes : Hoh River Trail)"
+        
       },
       {
         "id": 12,
         "name": "Sequoia",
         "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT53K7Wz403K6Hr14VI-IVgRqBXkuarg0bDHA&usqp=CAU",
-        "caption":"For the tree lover "
+        "caption":"For the tree lover (Popular hikes : General Sherman Tree Trail)"
       }
     ]
   }
