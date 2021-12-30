@@ -75,17 +75,17 @@ const renderPark =(park)=>{
 document.addEventListener('DOMContentLoaded', () =>{
    document.querySelector('form').addEventListener('submit',(e) => {
      e.preventDefault()
-      handleToDo(e.target.new_park.  value)
-      handleToDo(e.target.new_date.  value)
-      handleToDo(e.target.new_trail. value)
+      handleParkForm(e.target.new_park.value)
+      handleParkForm(e.target.new_date.value)
+      handleParkForm(e.target.new_trail.value)
     
    
     }) 
 
 })
 
-function handleToDo(todo){
+function handleParkForm(parkForm){
     let f = document.createElement('f')
-    f.textContent =todo
+    f.textContent =parkForm
     document.querySelector('#park_container').appendChild(f)
 }
