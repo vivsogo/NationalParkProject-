@@ -6,7 +6,7 @@ console.log('please work')
 // using each element is stored in a key 
 // were passing a call back function 
 function loadParks(){
-    fetch('http://localhost:3000/parks')
+   fetch('http://localhost:3000/parks')
      .then(function(response){
          return response.json();
 
@@ -30,20 +30,22 @@ const renderPark =(park)=>{
     parkCard.className="card"
 
     const parkName=document.createElement('h2')
-    parkName.innerText= park.name
+   parkName.innerText= park.name
+
 
     const parkImage=document.createElement('img')
     parkImage.src=park.image
     parkImage.className="park-avatar"
 
     const parkCaption=document.createElement('p')
-    parkCaption.innerText= `${park.caption}`
+   parkCaption.innerText= `${park.caption}`
 
-    const likeBtn=document.createElement('button')
-    likeBtn.innerText=`LIKE`
-    likeBtn.className='like-btn'
-    likeBtn.addEventListener('click',() =>{
+   const likeBtn=document.createElement('button')
+   likeBtn.innerText=`LIKE`
+   likeBtn.className='like-btn'
+   likeBtn.addEventListener('click',() =>{
         alert("This looks like the perfect park for you!");
+
     })
     
     parkCard.append(parkName,parkImage,parkCaption,likeBtn,)
@@ -68,22 +70,23 @@ const renderPark =(park)=>{
     
 
  })
-const wrapper = document.querySelector('.wrapper'),
- form = wrapper.querySelectorAll('form'),
- sumbitInput = form[0].querySelector('input[type="submit"]');
 
-function getDataForm(e){
-e.preventDefault();
-var formData= new formData(form[0]);
+ //form 
+document.addEventListener('DOMContentLoaded', () =>{
+   document.querySelector('form').addEventListener('submit',(e) => {
+     e.preventDefault()
+     handleToDo(e.target.new_park.value)
 
-alert (formData.get('nameField')+' - '+ formData.get('datefield')+' - '+ formData.get('trailfield'));
+     handleToDo(e.target.new_date.value)
 
+     handleToDo(e.target.new_trail.value)
+   
+    }) 
+
+})
+
+function handleToDo(todo){
+    let g = document.createElement('g')
+    g.textContent =todo
+    document.querySelector('#park_container').appendChild(g)
 }
-
-document.addEventListener('DOMContentLoaded',function(){
-sumbitInput.addEventListener('click',getDataForm,);
-
-
-}, false);   
-
-
