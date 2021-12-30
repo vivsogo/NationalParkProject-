@@ -7,38 +7,48 @@
     <title>Timber</title>
     <link rel="stylesheet"  href="css/index.css"/>   
 </head>
-<body>
+
     
    <div class="banner">
       <h1>Welcome To Timber </h1>
       <h3>Where you find your perfect National Park match!</h3>
     </div>
 
-   <div id="card"></div>
+   
+   
+  
+  <body>
+    <div id="card"></div>`
 
-  <div id="park-collection"></div>
+    <div id="park-collection"></div>
 
-  <div  class="wrapper">
-       <h1>Create A Park Planner! </h1>
-       <h3>Make a mini itinerary </h3>
-       <form class="form">
-           <label id="namefield">
-               <input type="text" name="nameField" placeholder="National Park Name" required />
-          </label>
-          
-          <label id="datefield">
-               <input type="date" name="nameField" placeholder=" Month of trip" required />
-          </label>  
 
-          <label id="trailfield">
-               <input type="text" name="nameField" placeholder="Trail you'd like to hike" required />
-           </label> 
-           
-         <input type="submit" vaule="submit" name="submit"/>
-          
+ <div class="wrapper">
+    <div id="park">
+        <h3>Plan your day at the park!</h3>
+        <h4>Create a mini itinerary </h4>
+        <form id="todo_form">
+          <div class="field">
+              <input id="new_park" type ="text" placeholder=" Park">
+              <input id="new_date" type ="date" placeholder=" date">
+              <input id="new_trail" type ="text" placeholder=" Trail">
+              <input type ="submit" class="btn" value="Submit">
+            </div>
 
-       </form>
-  </div>
+         </form>
+       <div id="park_container">
+           <h3>Have a Great Trip!</h3>
+
+     </div>
+
+    </div>
+    
+    
+ </div>
+  
+    
+
+  
   <script src="js/index.js"></script>  
 </body>
 </html>
