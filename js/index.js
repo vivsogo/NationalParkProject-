@@ -72,20 +72,29 @@ const renderPark =(park)=>{
  })
 
  //form 
+ //passing varibles as object 
 document.addEventListener('DOMContentLoaded', () =>{
    document.querySelector('form').addEventListener('submit',(e) => {
      e.preventDefault()
-      handleParkForm(e.target.new_park.value)
-      handleParkForm(e.target.new_date.value)
-      handleParkForm(e.target.new_trail.value)
-    
-   
-    }) 
+       
+      const newPark= e.target.new_park.value;
+      const newDate=e.target.new_date.value;
+      const newTrail=e.target.new_trail.value;
+
+
+      renderParkForm({newPark,newDate,newTrail});
+
+
+      
+     
+
+    })
 
 })
 
-function handleParkForm(parkForm){
+
+function renderParkForm(parkForm){
     let f = document.createElement('f')
-    f.textContent =parkForm
+    f.textContent =`Enjoy ${parkForm.newPark} National Park on ${parkForm.newDate}, take a picture at ${parkForm.newTrail}!  =)`
     document.querySelector('#park_container').appendChild(f)
 }
