@@ -35,12 +35,13 @@ const likeBtn=document.createElement('button')
 
     })
 ```
-At the bottom of the sites page is a form used to create a mini itinerary. This was done using a submit event listener. 
+At the bottom of the sites page is a form used to create a mini itinerary. This was done using a submit event listener I also added string interpolation here to pass the objects. 
 ```
-document.addEventListener('DOMContentLoaded', () =>{
-   document.querySelector('form').addEventListener('submit',(e) => {
-     e.preventDefault()
-      handleParkForm(e.target.new_park.value)
+function renderParkForm(parkForm){
+    let f = document.createElement('f')
+    f.textContent =`Enjoy ${parkForm.newPark} National park on ${parkForm.newDate}, take a picture at ${parkForm.newTrail}`
+    document.querySelector('#park_container').appendChild(f)
+
 ```
 
 
